@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Astro Society Multi-Token Mining NFT Project";
 const welcome_h2 = "Connect to MetaMask to Mint NFT";
-const welcome_p = 'The Astro Society is a revolutionary Multi-Token NFT Mining Project';
+const welcome_p = 'Astro Society is a revolutionary Multi-Token NFT Mining Project';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Officially Open!!";
