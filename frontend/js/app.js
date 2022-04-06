@@ -52,7 +52,7 @@ const updateConnectStatus = async () => {
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "Install MetaMask!";
+    onboardButton.innerText = "Install MetaMask";
       // HIDE SPINNER
       spinner.classList.add('hidden');
       notConnected.classList.remove('hidden');
@@ -78,7 +78,7 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerText = "Connect MetaMask!";
+    onboardButton.innerText = "Connect MetaMask";
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
