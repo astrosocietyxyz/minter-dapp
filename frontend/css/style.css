@@ -108,7 +108,7 @@ header .container {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -188,7 +188,7 @@ section {
   background: var(--accent-color);
   color: var(--font-color);
   box-shadow: var(--btn-shadow);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
   padding: 0.5rem;
@@ -243,7 +243,7 @@ section {
 .info-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 50%;
   text-align: center;
   margin-bottom: 2rem;
 }
