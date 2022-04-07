@@ -37,7 +37,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 850px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0.3rem 2rem;
   justify-content: center;
@@ -93,7 +93,7 @@ header .container {
 }
 
 .show-not-connected {
-  opacity: 1;
+  opacity: 0.85;
   transform: translateY(0);
 }
 
@@ -314,7 +314,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--btn-tx-color);
+  color: var(--font-color);
 }
 
 /* MINTED CONTAINER */
