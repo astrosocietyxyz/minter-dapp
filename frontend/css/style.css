@@ -6,7 +6,7 @@
 
 :root {
   --font-primary: "Space Adventure", sans-serif;
-  --font-secondary: "Space Adventure", serif;
+  --font-secondary: "Space Adventure", sans-serif;
   --font-code: "Space Adventure", monospace;
   --bg-color: #000000;
   --bg-color-transparent: #044b59e7;
