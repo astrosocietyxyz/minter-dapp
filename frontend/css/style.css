@@ -398,8 +398,11 @@ section {
   display: flex;
   align-items: center;
 }
+
+/* ROADMAP IMAGE */
+
 .collaboration span img {
-  width: 20vw;
+  width: 45vw;
   margin-left: 1rem;
   box-shadow: 2px 2px 4px var(--font-color);;
 }
