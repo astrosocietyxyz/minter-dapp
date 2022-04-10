@@ -5,6 +5,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- PULLDOWN -->
+    <script src='jquery-3.0.0.js' type='text/javascript'></script>
+        
+    <script>
+    var height = 0; var previousY = 0;
+    $(document).ready(function(){
+           
+        $("#pulldown").mousedown(function(e){
+           
+            height = 0;
+            previousY = 0;
+
+            $(document).on('mousemove',function(e){
+                var mouseButton = e.which;
+
+                if(previousY == 0){
+                    previousY = e.pageY;
+                }
+
+                var Y = e.pageY;
+                
+                // When Mouse Right button pressed
+                if(mouseButton == 1){
+
+                    // Check mouse movement up or down
+                    if( Y < previousY ){
+                        height -= 1;
+                    }else{
+                        height += 1;
+                    }
+                    previousY = e.pageY;
+                        
+                    // Set height
+                    $('.pulldown-content').css('height',height+"px");
+                        
+                }
+                    
+                if(height > 150){
+                    location.reload();
+                }
+                
+            });
+            
+            
+        });
+        
+        // Remove mouse move Event and set height of .pulldown-content
+        $(document).on('mouseleave mouseup',function(){
+
+            if(height > 20){
+                location.reload();
+            }    
+            $(document).off('mousemove');
+            $('.pulldown-content').css('height',"0px");
+        });
+    });
+    </script>
+</head>
+<body>
+    <!-- Pull down (start) -->
+    <div class="pulldown-content">
+        <div>
+        <img src='reload.gif' width='32px'><br/>
+        <input type='button' id='pulldown' value='Pull down to Refresh'>
+        </div>
+    </div>
+    <!-- Pull down (end) -->
+
+    <div class='container'>
+        <div class='content'>
+        </div>
+    </div>
+
+</body>
+</html>
 
     <!-- favicon -->
     <link

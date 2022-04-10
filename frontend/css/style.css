@@ -909,6 +909,45 @@ footer {
   }
 }
 
+/* PULLDOWN */
+
+.container{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+     
+.pulldown-content{
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  top: 0;
+  left: 0;
+  min-height: 20px;
+}
+
+/* image */
+.pulldown-content img{
+  margin-bottom: 25px;
+  margin-left: -15px;
+}
+
+/* Pull down button */
+.pulldown-content input[type=button]{
+  background: gold;
+  border: 0;   
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  left: 0;
+}
+
+.pulldown-content img,.pulldown-content input[type=button]{
+  bottom: 0;
+  position: absolute;                
+}
+
 /* UTILITIES */
 
 .hidden {
