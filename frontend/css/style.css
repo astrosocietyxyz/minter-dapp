@@ -345,7 +345,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 1rem;
   z-index: -1;
   max-height: 100vh;
