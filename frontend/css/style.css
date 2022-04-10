@@ -529,7 +529,7 @@ section {
 .row section .icon,
 .center-line .scroll-icon {
   position: absolute;
-  background: var(--accent-color);
+  background: var(--bg-color);
   height: 40px;
   width: 40px;
   text-align: center;
