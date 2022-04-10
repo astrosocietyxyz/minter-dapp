@@ -345,7 +345,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 1rem;
   z-index: -1;
   max-height: 100vh;
@@ -935,7 +935,7 @@ footer {
 
 /* Pull down button */
 .pulldown-content input[type=button]{
-  background: gold;
+  background: rgb(0, 0, 0);
   border: 0;   
   color: white;
   font-size: 16px;
