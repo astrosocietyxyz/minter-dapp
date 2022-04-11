@@ -166,13 +166,13 @@ a.astro-link {
   position: relative;
   background-color: var(--bg-color);
   border-radius: 20px;
-  border: 1px solid var(--accent-color);  /* CARD GLOW */
+  border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 .show-card {
@@ -345,14 +345,14 @@ section {
 
 .splide {
   position: absolute;
-  top: 0px;
+  top: 20px;
   left: 2rem;
   z-index: -1;
   max-height: 100vh;
 }
 
 .splide .splide__track {
-  max-height: 150vh;
+  max-height: 100vh;
 }
 .splide .splide__slide {
   border: var(--accent-color) solid;
