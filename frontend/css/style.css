@@ -401,7 +401,7 @@ section {
 .collaboration span img {
   width: 30vw;
   margin-left: 1rem;
-  box-shadow: 2px 2px 4px var(--font-color);;
+  box-shadow: 0px 0px 0px var(--font-color);;
 }
 
 .collabs {
