@@ -76,7 +76,7 @@ header .container {
 }
 
 .main-wrapper {
-  min-height: calc(90vh - 90px);
+  min-height: calc(100vh - 90px);
   display: flex;
   align-items: center;
 }
