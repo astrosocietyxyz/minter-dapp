@@ -15,8 +15,8 @@
   --accent-color: #00e1ff;
   --btn-tx-color: #000000;
   --header-shadow: #00e1ff 0px 0px 15px;
-  --card-shadow: var(--accent-color) 0px 0px 15px;
-  --btn-shadow: var(--accent-color) 0px 0px 15px;
+  --card-shadow: #00e1ff 0px 0px 15px;
+  --btn-shadow: #00e1ff 0px 0px 15px;
 }
 
 * {
@@ -536,7 +536,7 @@ section {
   color: #fff;
   font-size: 0px;
   font-style: normal;
-  box-shadow: 0 0 0 4px var(--accent-color), inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 10px 10px var(--accent-color), inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .center-line .scroll-icon {
