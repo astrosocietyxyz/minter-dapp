@@ -172,7 +172,7 @@ a.astro-link {
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 1.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .show-card {
