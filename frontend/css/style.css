@@ -399,7 +399,7 @@ section {
 /* ROADMAP IMAGE */
 
 .collaboration span img {
-  width: 45vw;
+  width: 30vw;
   margin-left: 1rem;
   box-shadow: 2px 2px 4px var(--font-color);;
 }
@@ -454,12 +454,13 @@ section {
 /** adjust reveal image dimensions **/
 
 .reveal img {
+  max-width: 250px;
   width: 250px;
   height: 250px;
-  margin-right: 1rem;
+  margin-right: 6rem;
   object-fit: none;
   object-position: bottom left;
-  box-shadow: 2px 2px 4px var(--font-color);
+  box-shadow: 6px 6px 4px var(--font-color);
 }
 .reveal .hero-btn {
   background: var(--bg-color);
