@@ -76,7 +76,7 @@ header .container {
 }
 
 .main-wrapper {
-  min-height: calc(100vh - 90px);
+  min-height: calc(90vh - 90px);
   display: flex;
   align-items: center;
 }
@@ -345,14 +345,14 @@ section {
 
 .splide {
   position: absolute;
-  top: 120px;
+  top: 0px;
   left: 2rem;
   z-index: -1;
   max-height: 100vh;
 }
 
 .splide .splide__track {
-  max-height: 100vh;
+  max-height: 150vh;
 }
 .splide .splide__slide {
   border: var(--accent-color) solid;
