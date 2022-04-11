@@ -29,7 +29,7 @@ body {
   background-color: var(--bg-color);
   /* display: flex;
   flex-flow: column; */
-  min-height: 50vh;
+  min-height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
 }
@@ -172,7 +172,7 @@ a.astro-link {
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 .show-card {
@@ -345,29 +345,26 @@ section {
 
 .splide {
   position: absolute;
-  top: 50px;
-  left: 1rem;
+  top: 120px;
+  left: 2rem;
   z-index: -1;
   max-height: 100vh;
 }
 
 .splide .splide__track {
-  max-height: 150vh;
+  max-height: 100vh;
 }
 .splide .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
-  border-radius: 1px;
 }
 
 .splide .splide__slide img {
   width: 100%;
-  border-radius: 1px;
 }
 
 .splide-2 .splide__slide img {
   width: 20vw;
-  border-radius: 1px;
 }
 
 /* STRATEGIC COLLABORATION */
@@ -594,9 +591,9 @@ section {
 }
 .roadmap-v2 p {
   background: var(--accent-color);
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 1rem 2rem;
 }
 @media (max-width: 790px) {
@@ -907,30 +904,6 @@ footer {
   .faq p {
     font-size: 1rem;
   }
-}
-
-/* PULLDOWN */
-
-.container{
-  margin: 0 auto;
-  margin-top: 20px;
-}
-     
-.pulldown-content{
-  position: absolute;
-  background: transparent;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  top: 0;
-  left: 0;
-  min-height: 20px;
-}
-
-/* image */
-.pulldown-content img{
-  margin-bottom: 25px;
-  margin-left: -15px;
 }
 
 /* UTILITIES */
