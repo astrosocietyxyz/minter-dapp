@@ -878,6 +878,7 @@ footer {
     width: 4vw;
   }
   .wallet-btn {
+    color: var(--btn-tx-color);
     margin-left: 0;
     padding: 0rem 0.75rem;
     max-width: 8rem;
