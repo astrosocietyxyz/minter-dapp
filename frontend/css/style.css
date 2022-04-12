@@ -8,15 +8,15 @@
   --font-primary: "Space Adventure", sans-serif;
   --font-secondary: "Space Adventure", sans-serif;
   --font-code: "Space Adventure", monospace;
-  --bg-color: #000000;
-  --bg-color-transparent: #000000;
+  --bg-color: #0e0b16;
+  --bg-color-transparent: #0e0b16;
   --font-color: #ffffff;
-  --btn-bg-color: #00e1ff;
-  --accent-color: #00e1ff;
-  --btn-tx-color: #000000;
-  --header-shadow: #00e1ff 0px 0px 15px;
-  --card-shadow: #00e1ff 0px 0px 15px;
-  --btn-shadow: #00e1ff 0px 0px 15px;
+  --btn-bg-color: #4cdef5;
+  --accent-color: #5cdef5;
+  --btn-tx-color: #ffffff;
+  --header-shadow: #ffffff 0px 0px 15px;
+  --card-shadow: #ffffff 0px 0px 15px;
+  --btn-shadow: #ffffff 0px 0px 15px;
 }
 
 * {
@@ -124,6 +124,7 @@ a.astro-link {
 /* BUTTONS */
 
 .btn {
+  text-shadow: 2px 2px 3px var(--bg-color);
   display: inline-block;
   padding: 0.4rem 2rem;
   background: var(--btn-bg-color);
@@ -150,6 +151,7 @@ a.astro-link {
 }
 
 .wallet-btn {
+  text-shadow: 1px 1px 1px var(--bg-color);
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
@@ -157,8 +159,8 @@ a.astro-link {
 
 .hero-btn {
   border-radius: 1rem;
-  font-size: 0.8rem;
-  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
 }
 
 /* CARD */
@@ -167,13 +169,13 @@ a.astro-link {
   position: relative;
   background-color: var(--bg-color);
   border-radius: 20px;
-  border: 3px solid var(--accent-color);
+  border: 3px solid var(--card-shadow);
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 1.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .show-card {
@@ -430,7 +432,7 @@ section {
 
 .reveal {
   padding: 0.5rem 0;
-  background: var(--btn-bg-color);
+  background: var(--accent-color);
   text-align: center;
   color: var(--bg-color);
 }
