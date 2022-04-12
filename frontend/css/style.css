@@ -177,7 +177,7 @@ a.astro-link {
 }
 
 .show-card {
-  opacity: 1;
+  opacity: 0.90;
   transform: translateX(0);
 }
 
