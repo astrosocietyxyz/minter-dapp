@@ -37,7 +37,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  max-width: 1520px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -57,7 +57,7 @@ h1 {
 }
 
 header .container {
-  max-width: 1500px;
+  max-width: 890px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -247,7 +247,7 @@ a.astro-link {
 
 .wallet-btn {
   text-shadow: 1px 1px 1px var(--bg-color);
-  font-size: 0.5rem;
+  font-size: 1rem;
   padding: 10px 10px;
   border-radius: 5rem;
   margin-left: 2rem;
@@ -876,19 +876,19 @@ footer {
     gap: 1rem;
   }
   .menu img {
-    width: 5vw;
+    width: 4vw;
   }
   .wallet-btn {
     margin-left: 0;
     padding: 0.25rem 0.5rem;
     max-width: 8rem;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   .not-connected {
     display: flex;
     background-color: var(--bg-color-transparent);
     border-radius: 30px;
-    margin-left: 2rem;
+    margin-left: 4.5rem;
     margin-right: auto;
     width: 1000rem;
   }
