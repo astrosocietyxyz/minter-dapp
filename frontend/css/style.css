@@ -245,7 +245,6 @@ a.astro-link {
   position: relative;
   text-decoration: none;
   outline: none;
-  text-shadow: 2px 2px 3px var(--bg-color);
   border-radius: 10px;
 }
 .btn:hover {
@@ -256,7 +255,6 @@ a.astro-link {
 }
 
 .wallet-btn {
-  text-shadow: 1px 1px 1px var(--bg-color);
   font-size: 1rem;
   padding: 10px 10px;
   border-radius: 5rem;
