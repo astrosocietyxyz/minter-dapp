@@ -26,17 +26,28 @@
 
 body {
   background-color: var(--bg-color);
-  display: flex;
-  flex-flow: column;
+  /*display: flex;
+  flex-flow: column; */
   min-height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
 
+.logo img {
+  width: 11vw;
+  margin-right: 10vw;
+}
+
+.miningnft img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: var(--card-shadow);
+}
+
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px; /* mint container size*/
+  max-width: 800px; /* mint container size*/
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -73,7 +84,7 @@ header .container {
 }
 
 .brand-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: .5rem;
 }
 
@@ -90,7 +101,7 @@ header .container {
 .navbar-links li a {
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 0.2rem 2rem;
   display: block;
 }
 
@@ -158,21 +169,21 @@ header {
 }
 
 header .container {
-  max-width: 1500px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-}
-/* SOCIAL MEDIA BUTTONS */
-.menu {
-  display: flex;
-  gap: 2rem;
   align-items: center;
 }
 
 .main-wrapper {
   min-height: calc(100vh - 90px);
   display: flex;
+  align-items: center;
+}
+
+/* SOCIAL MEDIA BUTTONS */
+.menu {
+  display: flex;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -184,7 +195,7 @@ header .container {
   margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
-  transition: all 1.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .show-not-connected {
@@ -218,9 +229,8 @@ a.astro-link {
 /* BUTTONS */
 
 .btn {
-  text-shadow: 2px 2px 3px var(--bg-color);
   display: inline-block;
-  padding: 0.4rem 2rem;
+  padding: 0.8rem 2rem;
   background: var(--btn-bg-color);
   color: var(--btn-tx-color);
   font-family: var(--font-secondary);
@@ -228,7 +238,6 @@ a.astro-link {
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
-  border-radius: 20px;
   text-transform: capitalize;
   transition: all 0.3s ease;
   box-shadow: var(--btn-shadow);
@@ -236,6 +245,8 @@ a.astro-link {
   position: relative;
   text-decoration: none;
   outline: none;
+  text-shadow: 2px 2px 3px var(--bg-color);
+  border-radius: 10px;
 }
 .btn:hover {
   box-shadow: none;
@@ -255,8 +266,8 @@ a.astro-link {
 }
 
 .hero-btn {
-  border-radius: 1rem;
-  font-size: 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
   padding: 1rem 2rem;
 }
 
@@ -268,11 +279,11 @@ a.astro-link {
   border-radius: 20px;
   border: 3px solid var(--card-shadow);
   box-shadow: var(--card-shadow);
-  padding: 5rem;
+  padding: 2rem;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 0.8s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .show-card {
@@ -336,8 +347,8 @@ section {
 .countdown h1 {
   text-shadow: 0px 0px 0 var(--accent-color);
   font-style: normal;
-  margin: 2rem 0;
-  font-size: 3.5rem;
+  margin: 0rem 0;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -361,19 +372,27 @@ section {
   justify-content: center;
 }
 
+.mint-container p {
+  color: var(--font-color);
+  text-align: center;
+  text-shadow: 0px 0px 0 var(--accent-color);
+  font-style: normal;
+  margin: 0 2rem;
+}
+
 .info-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 /* MINT CONTAINER COLOR BACKGROUND */
 .mint-qty {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem;
+  padding: 1rem;
   background-color: var(--bg-color);
   border-radius: 15px;
 }
@@ -392,17 +411,16 @@ section {
 
 .input-number {
   height: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   vertical-align: top;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
   outline: none;
 }
 
 .input-number,
 .input-number-decrement,
 .input-number-increment {
-  border-radius: 15px;
   user-select: none;
 }
 
@@ -410,7 +428,7 @@ section {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0 2rem;
 }
 
 .total-price-container p {
@@ -452,7 +470,7 @@ section {
 }
 
 .splide .splide__track {
-  max-height: 100vh;
+  max-height: 120vh;
 }
 .splide .splide__slide {
   border: var(--accent-color) solid;
@@ -870,6 +888,19 @@ footer {
   .logo img {
     width: 25vw;
     margin-right: 10vw;
+  }
+  .miningnft img {
+    width: 75%;
+    border-radius: 30px;
+    box-shadow: var(--card-shadow);
+    margin: 0 2rem;
+  }
+  .mint-container p {
+    color: var(--font-color);
+    text-align: center;
+    text-shadow: 0px 0px 0 var(--accent-color);
+    font-style: normal;
+    margin: 0 4rem;
   }
   .menu {
     gap: 1rem;
@@ -1372,5 +1403,5 @@ footer {
  }
   100% {
     opacity: 0;
- }
+  }
 }

@@ -84,23 +84,23 @@
       </div>
     </header>
 
-              <!-- TOGGLE MENU -->
-              <nav class="navbar">
-                <div class="brand title"></div> <!-- Menu Title-->
-                <a href="#" class="togglemenu-button">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                </a>
-                <div class="navbar-links">
-                  <ul>
-                    <li><a href="/frontend/index.html">Home</a></li>
-                    <li><a href="/frontend/pages/nft mining.html">NFT Mining</a></li>
-                    <li><a href="/frontend/pages/about us.html">About Us</a></li>
-                  </ul>
-                </div>
-              </nav>
-
+      <!-- TOGGLE MENU -->
+      <nav class="navbar">
+          <div class="brand title"></div> <!-- Menu Title-->
+            <a href="#" class="togglemenu-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="/frontend/index.html">Home</a></li>
+            <li><a href="/frontend/pages/nft mining.html">NFT Mining</a></li>
+            <li><a href="/frontend/pages/about us.html">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    
     <div class="main-wrapper">
       <section class="container not-connected">
         <div>
@@ -120,8 +120,7 @@
           <br />
           <button
             id="connectWalletActionBtn"
-            class="hero-btn btn"
-            ><span>Connect to MetaMask</span>
+            class="hero-btn btn"><span>Connect to MetaMask</span>
           </butt>
         </div>
       </section>
@@ -161,25 +160,30 @@
             href="https://instagram.com/astrosocietyxyz"
             target="_blank"
             rel="noopener noreferrer"
-            class="hero-btn btn"
-            ><span>Join the Community</span>
+            class="hero-btn btn"><span>Join the Community</span>
           </a>
+          <div>
+            <div class="miningnft">
+            <a href="/">
+              <img src="/frontend/images/reveal/astroxreveal.gif" alt="reveal" />
+            </a>
+          </div>
           <div id="mintContainer" class="mint-container hidden">
             <div class="info-container">
               <div>
-                <h3>Supply</h3>
-                <p id="totalSupply">100</p>
-              </div>
-              <div>
-                <h3>Price Per Mint</h3>
-                <p id="pricePerMint">1 ETH</p>
-              </div>
-              <div>
-                <h3>Max</h3>
-                <p id="maxPerMint">5 per wallet</p>
+                <h2>Rewards</h2> 
+                <p>0.0001231231231231</p>
               </div>
             </div>
-            <div class="mint-qty">
+            <h3></h3>
+            <p id="totalSupply"></p>
+          </div>
+          <div>
+            <h3></h3>
+            <p id="maxPerMint"></p>
+          </div>
+        </div>
+        <div class="mint-qty">
               <span>
                 <button class="input-number-decrement btn" id="mintDecrement">
                   –
@@ -196,11 +200,11 @@
                   +
                 </button>
               </span>
-              <button id="setQtyMax" class="btn">SET MAX</button>
+              <button id="setQtyMax" class="btn">STAKE</button>
             </div>
             <div class="total-price-container">
               <h3>Total</h3>
-              <p id="totalPrice">.001 ETH</p>
+              <p id="totalPrice">0</p>
             </div>
             <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
           </div>
