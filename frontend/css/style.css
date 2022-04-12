@@ -26,8 +26,8 @@
 
 body {
   background-color: var(--bg-color);
-  /* display: flex;
-  flex-flow: column; */
+  display: flex;
+  flex-flow: column;
   min-height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
@@ -36,7 +36,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1520px;
+  max-width: 960px; /* mint container size*/
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
