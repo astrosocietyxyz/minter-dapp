@@ -9,7 +9,6 @@
   --font-secondary: "Space Adventure", sans-serif;
   --font-code: "Space Adventure", monospace;
   --bg-color: #0e0b16;
-  --bg-color-transparent: #0e0b16;
   --font-color: #ffffff;
   --btn-bg-color: #4cdef5;
   --accent-color: #5cdef5;
@@ -885,8 +884,10 @@ footer {
     font-size: 0.65rem;
   }
   .not-connected {
+    opacity: 0.85;
+    box-shadow: var(--card-shadow);
     display: flex;
-    background-color: var(--bg-color-transparent);
+    background-color: var(--bg-color);
     border-radius: 30px;
     margin-left: 4.5rem;
     margin-right: auto;
