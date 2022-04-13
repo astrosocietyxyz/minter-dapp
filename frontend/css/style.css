@@ -885,6 +885,10 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+
+  .body {
+    overflow-x: hidden;
+  }
   .logo img {
     width: 25vw;
     margin-right: 10vw;
