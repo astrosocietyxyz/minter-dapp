@@ -885,10 +885,6 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-
-  .body {
-    overflow-x: hidden;
-  }
   .logo img {
     width: 25vw;
     margin-right: 10vw;
@@ -1009,6 +1005,7 @@ footer {
   }
   .wrapper {
     margin: 1rem auto;
+    overflow-x: hidden;
   }
   .hero-btn {
     font-size: 1rem;
