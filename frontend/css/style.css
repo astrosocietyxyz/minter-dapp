@@ -884,44 +884,9 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-
-  .total-price-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0rem 0 0rem;
-  }
-  .info-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0rem;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px; /* mint container size*/
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    justify-content: center;
-  }
   .logo img {
     width: 25vw;
     margin-right: 10vw;
-  }
-  .miningnft img {
-    width: 40%;
-    border-radius: 30px;
-    box-shadow: var(--card-shadow);
-    margin: 0 6rem;
-  }
-  .mint-container p {
-    color: var(--font-color);
-    text-align: center;
-    text-shadow: 0px 0px 0 var(--accent-color);
-    font-style: normal;
-    margin: 0 6rem;
   }
   .menu {
     gap: 1rem;
@@ -1062,6 +1027,33 @@ footer {
   }
   .faq p {
     font-size: 1rem;
+  }
+  .total-price-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem 0 0rem;
+  }
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; /* mint container size*/
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: center;
+  }
+  .miningnft img {
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: var(--card-shadow);
+    margin: 0 6rem;
   }
 }
 
