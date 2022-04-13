@@ -24,7 +24,7 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   position: relative;
   overflow-x: hidden;
   background-color: var(--bg-color);
