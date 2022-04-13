@@ -398,7 +398,7 @@ section {
 
 .mint-qty > span {
   display: flex;
-  gap: 0;
+  gap: 0.5rem;
 }
 
 .mint-btn {
