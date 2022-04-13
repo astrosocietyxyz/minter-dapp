@@ -945,7 +945,9 @@ footer {
   .countdown p {
     font-size: 1rem;
   }
-
+  .card {
+    padding: 0.5rem;
+  }
   .mint-qty .btn {
     padding: 1rem;
     font-size: 13px;
