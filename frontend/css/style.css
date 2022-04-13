@@ -15,7 +15,7 @@
   --btn-tx-color: #ffffff;
   --header-shadow: #ffffff 0px 0px 15px;
   --card-shadow: #ffffff 0px 0px 15px;
-  --btn-shadow: #ffffff 0px 0px 15px;
+  --btn-shadow: #ffffff 0px 0px 6px;
 }
 
 * {
@@ -397,7 +397,7 @@ section {
 
 .mint-qty > span {
   display: flex;
-  gap: 0.5rem;
+  gap: 0;
 }
 
 .mint-btn {
