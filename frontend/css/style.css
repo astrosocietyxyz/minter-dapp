@@ -33,6 +33,7 @@ html, body {
   min-height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  z-index: -2;
 }
 
 .logo img {
@@ -143,7 +144,6 @@ header .container {
 
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .navbar-links ul {
@@ -468,6 +468,7 @@ section {
   left: 2rem;
   z-index: -1;
   max-height: 100vh;
+  
 }
 
 .splide .splide__track {
