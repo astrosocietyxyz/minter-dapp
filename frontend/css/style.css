@@ -386,7 +386,7 @@ section {
   text-align: center;
   text-shadow: 0px 0px 0 var(--accent-color);
   font-style: normal;
-  margin: 0 3rem; /*adjusts sizes for minting box*/
+  margin: 0 1rem; /*adjusts sizes for minting box*/
 }
 
 .info-container {
@@ -1073,7 +1073,7 @@ footer {
     width: 40%;
     border-radius: 30px;
     box-shadow: var(--card-shadow);
-    margin: 0 6.3rem;
+    margin: 0 6.2rem;
   }
 }
 
