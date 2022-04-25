@@ -47,6 +47,12 @@ html, body {
   box-shadow: var(--card-shadow);
 }
 
+.revealnft img {
+  width: 50%;
+  border-radius: 30px;
+  box-shadow: var(--card-shadow);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -1055,6 +1061,12 @@ footer {
     justify-content: center;
   }
   .miningnft img {
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: var(--card-shadow);
+    margin: 0 5.5rem;
+  }
+  .revealnft img {
     width: 40%;
     border-radius: 30px;
     box-shadow: var(--card-shadow);
