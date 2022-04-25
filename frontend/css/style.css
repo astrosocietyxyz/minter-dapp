@@ -924,13 +924,13 @@ footer {
     width: 3000rem;
   }
   .not-connected h1 {
-    font-size: 0.5rem;
-  }
-  .not-connected h2 {
     font-size: 1rem;
   }
+  .not-connected h2 {
+    font-size: 1.5rem;
+  }
   .not-connected p, .not-connected a {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .countdown ul {
     display: grid;
