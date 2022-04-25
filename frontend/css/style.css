@@ -195,7 +195,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: -25rem auto 0 30vw;
+  margin: -5rem auto 0 30vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
