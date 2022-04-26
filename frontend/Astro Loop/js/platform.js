@@ -139,7 +139,7 @@ class Platform {
     getColor(type) {
       switch (type) {
         case this.STABLE:
-          return color("#8ac43d");
+          return color("#7931d6");
         case this.MOVING:
           return color("#31b8d6");
         case this.FRAGILE:
