@@ -141,7 +141,7 @@ class Platform {
         case this.STABLE:
           return color("#7931d6");
         case this.MOVING:
-          return color("#31b8d6");
+          return color(getRandomColor());
         case this.FRAGILE:
           return color(255);
         default:
