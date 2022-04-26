@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astro Loop</title>
-    <link rel="stylesheet" href="./Astro Loop/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="./Astro Loop/lib/p5.min.js"></script>
     <script src="./Astro Loop/lib/p5.sound.min.js"></script>
     <script src="./Astro Loop/js/config.js"></script>
@@ -12,6 +12,101 @@
     <script src="./Astro Loop/js/platform.js"></script>
     <script src="./Astro Loop/js/doodler.js"></script>
     <script src="./Astro Loop/js/index.js"></script>
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/x-icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/x-icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/x-icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/x-icon/site.webmanifest" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- ANIMATION ROADMAP -->
+    <link rel="stylesheet" href="css/three-dots.min.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/shootingstars.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="/">
+            <img src="images/header/Logo Website.png" alt="logo" />
+          </a>
+        </div>
+        <div class="menu">
+          <a
+            href="https://instagram.com/astrosocietyxyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/discord.webp" alt="Discord" />
+          </a>
+          <a
+            href="https://twitter.com/astrosocietyxyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/twitter.webp" alt="Twitter" />
+          </a>
+          <a
+            href="https://opensea.io/astrosociety"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/header/opensea.webp" alt="Opensea" />
+          </a>
+          <button class="wallet-btn btn" id="connectWallet">
+            <span>Connect Wallet</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+              <!-- TOGGLE MENU -->
+              <nav class="navbar">
+                <div class="brand title"></div> <!-- Menu Title-->
+                <a href="#" class="togglemenu-button">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="nftmining">NFT Mining</a></li>
+                    <li><a href="aboutus">About Us</a></li>
+                    <li><a href="astroloop">Astro Loop</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+  </head>
+  <body>
+    <script src="js/menu.js"></script>
+    <script src="js/metamask-onboarding.bundle.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      AOS.init({
+        disable: 'phone'
+      });
+    </script>
+  </body>
 </html>
