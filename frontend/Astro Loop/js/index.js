@@ -36,16 +36,16 @@ const sound = {
  */
 function preload() {
   const baseUrl = "..";
-  Doodler.leftImage = loadImage(baseUrl + "/assets/img/doodler_left.png");
-  Doodler.rightImage = loadImage(baseUrl + "/assets/img/doodler_right.png");
-  Platform.springImage = loadImage(baseUrl + "/assets/img/spring.png");
-  Blackhole.blackholeImg = loadImage(baseUrl + "/assets/img/hole.png");
+  Doodler.leftImage = loadImage(baseUrl + "/Astro Loop/assets/img/doodler_left.png");
+  Doodler.rightImage = loadImage(baseUrl + "/Astro Loop/assets/img/doodler_right.png");
+  Platform.springImage = loadImage(baseUrl + "/Astro Loop/assets/img/spring.png");
+  Blackhole.blackholeImg = loadImage(baseUrl + "/Astro Loop/assets/img/hole.png");
   soundFormats("mp3", "wav");
-  sound.blackhole = loadSound(baseUrl + "/assets/sound/blackhole.mp3");
-  sound.jump = loadSound(baseUrl + "/assets/sound/jump.wav");
-  sound.spring = loadSound(baseUrl + "/assets/sound/spring.mp3");
-  sound.fragile = loadSound(baseUrl + "/assets/sound/fragile.mp3");
-  sound.falling = loadSound(baseUrl + "/assets/sound/falling.mp3");
+  sound.blackhole = loadSound(baseUrl + "/Astro Loop/assets/sound/blackhole.mp3");
+  sound.jump = loadSound(baseUrl + "/Astro Loop/assets/sound/jump.wav");
+  sound.spring = loadSound(baseUrl + "/Astro Loop/assets/sound/spring.mp3");
+  sound.fragile = loadSound(baseUrl + "/Astro Loop/assets/sound/fragile.mp3");
+  sound.falling = loadSound(baseUrl + "/Astro Loop/assets/sound/falling.mp3");
 }
 
 /**
