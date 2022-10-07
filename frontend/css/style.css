@@ -36,6 +36,17 @@ html, body {
   z-index: -2;
 }
 
+/* NEW MINTER */
+
+.minternft {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .logo img {
   width: 11vw;
   margin-right: 10vw;
@@ -912,7 +923,7 @@ footer {
     gap: 1rem;
   }
   .menu img {
-    width: 4vw;
+    width: 5vw;
   }
   .wallet-btn {
     color: var(--btn-tx-color);

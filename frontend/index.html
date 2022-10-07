@@ -73,10 +73,6 @@
             rel="noopener noreferrer"
           >
             <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
         </div>
       </div>
     </header>
@@ -99,133 +95,17 @@
                 </div>
               </nav>
 
-    <div class="main-wrapper">
-      <section class="container not-connected">
-        <div>
-          <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-          <h1 id="welcomeH1">Welcome to the Astro Society NFT Project!</h1>
-          <p id="welcomeP">
-            Astro Society is a Multi-Token NFT mining project.
-            <a
-              href="https://youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="astrosociety-link"
-              >Astro Society</a
-            >
-            YouTube channel.
-          </p>
-          <br />
-          <button
-            id="connectWalletActionBtn"
-            class="hero-btn btn"
-            ><span>Connect to MetaMask</span>
-          </butt>
-        </div>
-      </section>
+              <!-- Mint Frame -->
 
-      <section class="container countdown-container">
-        <div class="countdown card">
-          <div id="countdown">
-            <ul class="count-down" data-date="">
-              <li class="clock-item">
-                <span class="count-number days">20</span>
-                <p class="count-text">Days</p>
-              </li>
-
-              <li class="clock-item">
-                <span class="count-number hours">20</span>
-                <p class="count-text">Hour</p>
-              </li>
-
-              <li class="clock-item">
-                <span class="count-number minutes">20</span>
-                <p class="count-text">Min</p>
-              </li>
-
-              <li class="clock-item">
-                <span class="count-number seconds">20</span>
-                <p class="count-text">Sec</p>
-              </li>
-            </ul>
-            <h2 id="subHeading">Pre-Sale Countdown</h2>
-          </div>
-          <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
-          <p id="mainText">
-            A new batch of AstroX NFT's will be available very soon!
-          </p>
-          <a
-            id="actionButton"
-            href="https://instagram.com/astrosocietyxyz"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hero-btn btn"
-            ><span>Join the Community</span>
-          </a>
-          <div>
-            <div class="revealnft">      
-              <img src="images/reveal/astroxreveal.gif" alt="revealnft" />
-          </div>
-          <div id="mintContainer" class="mint-container hidden">
-            <div class="info-container">
-              <div>
-                <h3>Supply</h3>
-                <p id="totalSupply">100</p>
+              <div class="minternft"
+                ><iframe
+                  src="https://gateway.ipfscdn.io/ipfs/QmPaVYdGue8zEXFKqrtVHpvzBvufM1DYzw5n1of3KVPG88/nft-drop.html?contract=0x1B2fD02E169542e47aC9c6f22F28fB2E9d9b6D9b&chainId=137&theme=dark&primaryColor=blue"
+                  width="600px"
+                  height="600px"
+                  style="max-width:100%;"
+                  frameborder="0"
+                ></iframe>
               </div>
-              <div>
-                <h3>Price Per Mint</h3>
-                <p id="pricePerMint">1 ETH</p>
-              </div>
-              <div>
-                <h3>Max</h3>
-                <p id="maxPerMint">5 per wallet</p>
-              </div>
-            </div>
-            <div class="mint-qty">
-              <span>
-                <button class="input-number-decrement btn" id="mintDecrement">–</button>
-                <input
-                  id="mintInput"
-                  class="input-number btn"
-                  type="number"
-                  value="1"
-                  min="1"
-                  max="5"
-                />
-                <button class="input-number-increment btn" id="mintIncrement">+</button>
-              </span>
-              <button id="setQtyMax" class="btn">SET MAX</button>
-            </div>
-            <div class="total-price-container">
-              <h3>Total</h3>
-              <p id="totalPrice">.001 ETH</p>
-            </div>
-            <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
-          </div>
-        </div>
-        <div class="minted-container card show-card hidden">
-          <h1>🎉</h1>
-          <h2>Minted!</h2>
-          <p>Here's your trasaction link:</p>
-          <a
-            id="mintedTxnBtn"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button class="hero-btn btn">View Transaction</button>
-          </a>
-          <p>View it in the collection:</p>
-          <a
-            id="mintedLinkBtn"
-            href="https://opensea.io/astrosociety"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button class="hero-btn btn">View Collection</button>
-          </a>
-        </div>
-      </section>
 
       <div class="splide">
         <div class="splide__track">
@@ -345,7 +225,7 @@
             <span>March 23, 2022</span>
           </div>
           <p>
-            Official Launch of <strong>5000</strong> NFT's Every whitelisted address can mint up to a limit of 10 AstroX NFT's.
+            Official Launch of <strong>1000</strong> NFT's Every whitelisted address can mint up to a limit of 10 AstroX NFT's.
           </p>
           <div class="bottom">
             <a href="https://twitter.com/astrosocietyxyz" target="_blank" rel="noopener noreferrer">Enter Whitelist</a>
@@ -519,7 +399,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/countdown.js"></script>
-    <script src="js/app.js"></script>
+
     <script>
       AOS.init({
         disable: 'phone'
