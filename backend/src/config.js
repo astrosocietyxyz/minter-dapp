@@ -8,13 +8,13 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "AstroX";
-const description = "Astro Society AI generated NFT - AstroSociety.xyz -";
+const description = "AstroSociety is a series of collections starting with 10,000 unique, randomly generated Astronaut NFTs on the Polygon blockchain. Fuelling zero-emission gas fee free travel across the Metaverse.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 10000,
     layersOrder: [
       { name: "Background" },
       { name: "Glow" },
@@ -78,7 +78,7 @@ const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which AstroX limited edition NFT will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeidxqcayv3tt3r36xhimfpxgdmj6nqa5nos6qn73b7rrqer3ynba4y"; // Replace with your generic image that will display for all NFTs pre-reveal.
